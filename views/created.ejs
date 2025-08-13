@@ -3,10 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <title>Product Created</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    .box {
+      border: 1px solid #ccc;
+      padding: 15px;
+      max-width: 400px;
+    }
+    h2 {
+      color: #333;
+    }
+  </style>
 </head>
 <body>
-  <h1>Product Created!</h1>
-  <p>ID: <%= id %></p>
-  <p><%= message %></p>
+  <div class="box">
+    <h2>Product Created</h2>
+    <p><strong>ID:</strong> <%= id %></p>
+    <p><%= message %></p>
+  </div>
 </body>
 </html>

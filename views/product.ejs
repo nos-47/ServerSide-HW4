@@ -2,10 +2,19 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Product Details</title>
+  <title>View Product</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    h2 {
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
-  <h1><%= product.name %></h1>
+  <h2>Product: <%= product.name %></h2>
   <p><strong>Price:</strong> $<%= product.price %></p>
   <p><strong>Description:</strong> <%= product.description %></p>
 </body>
